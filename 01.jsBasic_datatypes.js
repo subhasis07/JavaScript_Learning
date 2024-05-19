@@ -15,5 +15,5 @@ let isLoggedIn= true;
 //object
 
 console.log(typeof("hitesh")); //string
-console.log(typeof null); //object
+console.log(typeof null);   //object
 console.log(typeof undefined); // undefined
