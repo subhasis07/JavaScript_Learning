@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Practice</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <!-- for details check chai aur code lec from 31 of js playlist-->
+    <div class="parent">
+        <!-- this comment is also added in Nodelist but not empty lines -->
+        
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+
+    </div>
+
+</body>
+
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children);  //HTMLCOllection
+
+    // console.log(parent.children[0].innerText);
+
+    // for (let i = 0; i < parent.children.length; i++) {
+    //     console.log(parent.children[i].innerText);
+        
+    // }
+
+    parent.children[1].style.color= 'blue';
+
+    // console.log(parent.firstElementChild);
+    // console.log(parent.lastElementChild);
+
+    const dayOne= document.querySelector('.day');
+
+    // console.log(dayOne);
+    // console.log(dayOne.parentElement);
+    // console.log(dayOne.nextElementSibling);
+
+    console.log("NODES: ", parent.childNodes);
+</script>
+</html>

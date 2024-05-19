@@ -1,0 +1,41 @@
+<!-- Set Timeout  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+
+<script>
+    const sayName=function(){
+        console.log("Subhasis");
+    }
+
+    // setInterval(() => {
+    //     console.log("Subhasis");
+    // }, 1000);
+
+    // const intervalID= setInterval(sayName, 1000);
+    let intervalID;
+
+    document.querySelector("#start").addEventListener('click', function () {
+        intervalID= setInterval(sayName, 1000);;
+    })
+
+    document.querySelector("#stop").addEventListener('click', function () {
+        clearInterval(intervalID);
+    })
+    // clearInterval(intervalID);
+
+
+</script>
+</html>

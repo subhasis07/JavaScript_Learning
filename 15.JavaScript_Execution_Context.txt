@@ -1,0 +1,9 @@
+JavaScript Execution Context
+
+-Global Execution Context
+-Functional Execution Context
+- Eval Execution Context
+
+2 phases:
+1. Memeory Creation phase
+2. Execution phase
