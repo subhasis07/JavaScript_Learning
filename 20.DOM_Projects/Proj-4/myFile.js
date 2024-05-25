@@ -38,6 +38,7 @@ function validateGuess(guess) {
             displayGuess(guess);
             displayMessage(`Game Over. Random Number is ${randomNumber}`);
             endGame();
+            
         }else{
             displayGuess(guess);
             checkGuess(guess);
@@ -92,6 +93,8 @@ function newGame() {
         playGame=true;
     })
 }
+
+
 
 
 

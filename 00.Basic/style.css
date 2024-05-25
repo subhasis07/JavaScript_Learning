@@ -1,0 +1,108 @@
+#Subscribe{
+    background-color: rgb(223, 67, 67);
+    color: aliceblue;
+    height: 35px;
+    width: 100px;
+    padding: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.15s;
+}
+
+#Subscribe:hover{
+    opacity: 0.7;
+}
+#Subscribe:active{
+    opacity: 0.3;
+}
+
+#Join{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(93, 93, 209);
+    color: rgb(93, 93, 209);
+    font-weight: 500 ;
+    border-width: 1px;
+    height: 35px;
+    width: 59px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+#Join:hover{
+    background-color: rgb(93, 93, 209);
+    color: rgb(255, 255, 255);
+}
+#Join:active{
+    opacity: 0.5;
+}
+
+#Tweet{
+    background-color: rgb(2, 158, 237);
+    border: none;
+    border-radius: 40px;
+    height: 30px;
+    width: 70px;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+#Tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.13);
+}
+#Tweet:active{
+    opacity: 0.5;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    
+    font: 30px;
+    font-size: 20 px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+#vid-status{
+    font-size: 14px;
+    margin-top: 0;
+}
+
+#Apple{
+    background-color: red;
+    text-align: center;
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: ease;
+}
+
+#Apple span:hover{
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* position absolute mane oi box ta oporer layer e chole asbe ==> porer box gulo or jaiga niye nebe
+
+box-1
+box-2  --> 2 ke absolute krle 2 ta oporer layer e chole jbe r or jaigai 3 chole asbe
+box-3
+*/
+
+/* position relative mane..  kono boro box er vetor akta choto box ke jdi abosute kre di...ota tahole oporer layer e chole glo & ota freely puro screen e move krte parbe.. but parent box ke jdi relative kre di..tahole choto box ta absolute holeo oi parent er vetorei move krbe( top, bottom eisob property diye) */
+
+/* flexbox
+jdi akta boro parent box er vetor 3 te choto child box.. top to bottom ache..
+ ei child box 3 te ke jdi side wise rakhte hoi..tahole parent box ke display:flexbox krte hbe...
+ 
+flexbox e duto axis hoi... 
+top to bottom : align-items use hoi
+left to right : justify-content use hoi
+*/
