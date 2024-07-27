@@ -1,0 +1,151 @@
+/* body{
+    border: 2px solid black;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 5px 10px;
+}
+
+.select-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+#country-Img{
+    height: 50px;
+    width: 55px;
+}
+
+#converter{
+    margin: 10px 120px;
+    cursor: pointer;
+    padding: 3px 5px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+#dropdown_list{
+    cursor: pointer;
+    padding: 2px;
+    font-size: medium;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.amount > input{
+    border: 2px solid rgba(0, 0, 0, 0.763);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.amount > p, .converter-heading{
+    font-size: 20px;
+    font-weight: 300;
+} 
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 5px 10px;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#country-Img-from, #country-Img-to {
+    height: 50px;
+    width: 55px;
+}
+
+#converter {
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#converter:hover {
+    background-color: #0056b3;
+}
+
+#dropdown_list_from, #dropdown_list_to {
+    cursor: pointer;
+    padding: 2px;
+    font-size: medium;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.amount > input {
+    border: 2px solid rgba(0, 0, 0, 0.763);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.amount > label {
+    font-size: 20px;
+}
+
+/* @media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .amount input, .amount label {
+        font-size: 16px;
+    }
+} */
+
